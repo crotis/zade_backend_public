@@ -26,5 +26,5 @@ Preloads a template of the data which is to be held in the database.
 Schedules periodic the update of the database, upon where RequestFX and RequestCrpy retrieve the data and instances of the Asset are saved to the database. 
 
 ### AssetController.java
-Provides the REST API controller for single and multiple asset functions: GET, POST, PUT and DELETE.
+Provides the REST API controller for single and multiple asset functions: GET, PUT, POST and DELETE.
 
