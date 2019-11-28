@@ -28,3 +28,4 @@ Schedules periodic the update of the database, upon where RequestFX and RequestC
 ### AssetController.java
 Provides the REST API controller for single and multiple asset functions: GET, PUT, POST and DELETE.
 
+
