@@ -11,7 +11,7 @@ The project aims to make financial information availible on the Zade Web Applica
 
 This repoisitory contains the server-side web API components of the Project built in Spring(Java) and uses Apache Tomcat. Periodically retrieves data from https://www.alphavantage.co/ and saves it to an integrated database so that it can be provided to the Zade Financial Web Application via and custom API. This was done for two main reasons, to demonstraight my ability in back-end development and to make the JSON data more appropriate to my needs.
 
-## Project Structure
+## Project Structure - Main Components
 
 ### AlphaVantage\RequestFX & RequestCrpy
 These classes provide the requests to https://www.alphavantage.co/ API for the relevant data on financial assets. 
