@@ -17,11 +17,14 @@ This repoisitory contains the server-side web API components of the Project buil
 These classes provide the requests to https://www.alphavantage.co/ API for the relevant data on financial assets. 
 
 ### Assets\Asset.java
-Allows an instance of an Asset to be created.
+Allows an instance of an Asset to be created and provides part of the format for the JSON from the REST API.
 
-## LoadDatabase.java
+### LoadDatabase.java
 Preloads a template of the data which is to be held in the database.
 
-## UpdateDatabase.java
+### UpdateDatabase.java
 Schedules periodic the update of the database, upon where RequestFX and RequestCrpy retrieve the data and instances of the Asset are saved to the database. 
+
+### AssetController.java
+Provides the REST API controller for single and multiple asset functions: GET,POST,PUT,DELETE.
 
